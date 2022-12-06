@@ -1,0 +1,861 @@
+/* importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+/* ######################################################################### */
+/* universal selector */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* ######################################################################### */
+/* pesudo class for root element */
+:root {
+  font-size: 62.5%;
+  --basicFont: "Roboto", sans-serif;
+  --secondFont: "Indie Flower", cursive;
+}
+/* ######################################################################### */
+body {
+  font-size: 62.5%;
+  font-family: var(--basicFont);
+  scroll-behavior: smooth;
+}
+body.addPicture-body {
+  width: 100%;
+  height: 100vh;
+  background-color: lightcyan;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 235, 102, 0.85) 0%,
+    rgba(30, 143, 170, 0.78) 100%
+  );
+  border-radius: 1rem;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: black;
+}
+/* ######################################################################### */
+/* header section starts */
+.header-section {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 235, 102, 0.85) 0%,
+    rgba(30, 143, 170, 0.78) 100%
+  );
+  box-shadow: 0px 0px 50px 0px black;
+  position: sticky;
+  top: 0px;
+  right: 0px;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blue; */
+}
+.header-section h2 {
+  font-size: 4em;
+  font-family: var(--secondFont);
+  font-style: italic;
+  text-shadow: 0px 0px 10px black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: brown; */
+}
+/* header section ends */
+/* ######################################################################### */
+/* intro section starts */
+#intro-screen {
+  width: 100%;
+  height: 90vh;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: brown; */
+}
+.intro-screen-sec {
+  width: 100%;
+  height: 100%;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+.intro {
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 235, 102, 0.85) 0%,
+    rgba(30, 143, 170, 0.78) 100%
+  );
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: crimson; */
+}
+.intro-sec {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+.intro-image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: peru; */
+}
+.intro-image img {
+  width: 33.33%;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blue; */
+}
+.intro-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blueviolet; */
+}
+.intro-text h1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0px 0px 20px black;
+  font-size: 9em;
+  font-family: var(--secondFont);
+  font-style: italic;
+  text-transform: capitalize;
+  text-align: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: red; */
+}
+.intro-second {
+  width: 100%;
+  height: 50%;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blue; */
+}
+.intro-second-sec {
+  width: 100%;
+  height: 100%;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+.intro-second-sec p {
+  width: 100%;
+  height: 50%;
+  font-family: var(--secondFont);
+  font-size: 3em;
+  text-transform: lowercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: coral; */
+}
+.intro-second-sec p i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: coral; */
+}
+.intro-second-sec .benefits {
+  width: 100%;
+  height: 50%;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: red; */
+}
+.intro-second-sec .benefits ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 3em;
+  list-style-type: none;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: green; */
+}
+.intro-second-sec .benefits ul li {
+  width: 100%;
+  height: 100%;
+  text-transform: capitalize;
+  font-family: var(--secondFont);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+.intro-second-sec .benefits ul li i {
+  color: green;
+  font-size: large;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+/* intro section ends */
+/* ######################################################################### */
+/* add image section starts */
+.add-data {
+  width: 100%;
+  min-height: 80%;
+  display: flex;
+  justify-content: baseline;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: brown; */
+}
+.image-file {
+  width: 200px;
+  height: 200px;
+  margin: 2rem 0rem 0rem 2rem;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: red; */
+}
+.image-file form,
+.done .inner-style {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: lightgreen; */
+}
+.image-file form label,
+.done p,
+.convert-PDF p {
+  font-size: 3em;
+  font-weight: 700;
+  font-family: var(--secondFont);
+  text-transform: uppercase;
+  text-shadow: 0px 0px 50px black;
+  box-shadow: 0px 0px 10px 0px black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightseagreen;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightseagreen;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.image-file form label i {
+  color: white;
+  font-size: 7rem;
+  margin-top: 1rem;
+}
+.image-file form input {
+  display: none;
+}
+.done .inner-style {
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightgreen;
+}
+.done p {
+  font-size: 5em;
+  background-color: lightgreen;
+}
+.done p i {
+  font-size: 2.5em;
+}
+.done {
+  display: none;
+}
+.convert-PDF p {
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem;
+  word-wrap: break-word;
+  background-color: lightsalmon;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: lightsalmon; */
+}
+.convert-PDF p i {
+  font-size: 2.5em;
+  margin-top: 1rem;
+}
+.convert-PDF {
+  display: none;
+}
+/* add image section ends */
+/* ######################################################################### */
+/* add pdf file section starts */
+.add-data .pdf-file {
+  width: 200px;
+  height: 200px;
+  margin: 2rem 0rem 0rem 2rem;
+  background-color: white;
+  box-shadow: 0px 0px 8px 0px black;
+  /* border-style: solid;
+  border-color: black;
+  border-width: 2px; */
+}
+.pdf-file .pdf-file-data {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  /* border-style: solid;
+  border-color: blue;
+  border-width: 2px; */
+}
+.pdf-file-data .trash-button {
+  width: 100%;
+  height: 15%;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  background-color: rgb(240, 128, 128, 0.2);
+  display: none;
+  /* border-style: solid;
+  border-color: red;
+  border-width: 2px; */
+}
+.trash-button i {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: red;
+}
+.pdf-file-data:hover .trash-button {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pdf-file-data .image-section {
+  width: 100%;
+  height: 85%;
+  /* border-style: solid;
+  border-color: brown;
+  border-width: 2px; */
+}
+.pdf-file-data:hover .image-section {
+  width: 100%;
+  height: 70%;
+}
+.pdf-file-data .image-section img {
+  width: 100%;
+  height: 100%;
+  /* border-style: solid;
+  border-color: darkblue;
+  border-width: 2px; */
+}
+.pdf-file-data .image-name {
+  width: 100%;
+  height: 15%;
+  font-size: 1.5em;
+  font-weight: 700;
+  background-color: lightgreen;
+  word-wrap: normal;
+  word-break: keep-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-color: blueviolet;
+  border-width: 2px; */
+}
+/* pdf file section ends */
+/* ######################################################################### */
+/* main activity section starts */
+#main-activity {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 235, 102, 0.85) 0%,
+    rgba(30, 143, 170, 0.78) 100%
+  );
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: brown; */
+}
+.main-activity-sec {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+.main-activity-sec .inner {
+  width: 94%;
+  height: 94%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightcyan;
+  box-shadow: 0px 0px 20px 0px black;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 1rem;
+}
+.main-activity-sec .inner p {
+  width: 100%;
+  height: 50%;
+  font-size: 7em;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--secondFont);
+  text-transform: capitalize;
+  text-shadow: 0px 0px 3px black;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+.main-activity-sec .inner .file {
+  width: 40%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+.inner .file a {
+  color: white;
+  background-color: purple;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  font-family: var(--secondFont);
+  padding: 1rem;
+  text-transform: capitalize;
+  border-style: solid;
+  border-width: 2px;
+  border-color: purple;
+  border-radius: 3rem;
+}
+/* main activity section ends */
+/* ######################################################################### */
+/* convert details section starts */
+#convert-details {
+  width: 100%;
+  height: 70vh;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: brown; */
+}
+#convert-details .convert-inner {
+  width: 100%;
+  height: 100%;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+.convert-inner h2 {
+  width: 100%;
+  height: 15%;
+  font-size: 4em;
+  font-weight: 700;
+  font-family: var(--secondFont);
+  padding: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blue; */
+}
+.convert-inner h2 i {
+  color: navy;
+}
+.convert-inner .convert {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blue; */
+}
+.convert img {
+  width: 50%;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blueviolet; */
+}
+.convert ol {
+  width: 50%;
+  list-style-type: none;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blueviolet; */
+}
+.convert ol li {
+  width: 100%;
+  height: 100%;
+  font-size: 3em;
+  text-transform: capitalize;
+  padding: 1rem;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+.convert ol li i {
+  color: green;
+}
+/* convert details section ends */
+/* ######################################################################### */
+/* footer section starts */
+#footer-section {
+  width: 100%;
+  height: 20vh;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 235, 102, 0.85) 0%,
+    rgba(30, 143, 170, 0.78) 100%
+  );
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: brown; */
+}
+#footer-section .footer-details {
+  width: 100%;
+  height: 100%;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blue; */
+}
+.footer-details .links {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blueviolet; */
+}
+.links li {
+  font-size: 3em;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+.links li a {
+  color: black;
+}
+.footer-details p {
+  width: 100%;
+  height: 25%;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blueviolet; */
+}
+.footer-details p i {
+  color: crimson;
+}
+/* footer section ends */
+/* ######################################################################### */
+/* responsive code starts */
+/* intro section */
+@media screen and (max-width: 680px) and (min-width: 0px) {
+  .intro-sec {
+    flex-direction: column;
+  }
+  .intro-image {
+    width: 100%;
+    height: 50%;
+  }
+  .intro-image img {
+    width: 33.33%;
+    height: 100%;
+  }
+  .intro-text {
+    width: 100%;
+    height: 50%;
+  }
+}
+/* pdf pages */
+@media screen and (max-width: 450px) and (min-width: 0px) {
+  .add-data {
+    justify-content: center;
+    align-items: center;
+  }
+  .image-file {
+    margin: 0rem;
+  }
+  .intro-image img {
+    width: 33.33%;
+    height: 100%;
+  }
+  .add-data .pdf-file {
+    margin: 0rem;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 0px) {
+  .header-section h2 {
+    font-size: 3em;
+  }
+  .intro-text h1 {
+    font-size: 3em;
+  }
+  .intro-second-sec p {
+    font-size: 2em;
+  }
+  .intro-second-sec .benefits ul {
+    font-size: 2em;
+  }
+  .main-activity-sec .inner p {
+    font-size: 4em;
+  }
+  .main-activity-sec .inner .file {
+    width: 100%;
+    height: 50%;
+  }
+  .inner .file a {
+    font-size: 3em;
+  }
+  .convert-inner h2 {
+    font-size: 2.5em;
+  }
+  .convert-inner .convert {
+    flex-direction: column;
+  }
+  .convert-inner .convert img {
+    width: 100%;
+    height: 40%;
+  }
+  .convert ol {
+    width: 100%;
+    height: 60%;
+    flex-direction: row;
+  }
+  .convert ol li {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-weight: 700;
+    font-size: 2em;
+  }
+  .convert ol li i {
+    display: none;
+  }
+  .links li {
+    font-size: 2.5em;
+  }
+  .footer-details p {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 680px) and (min-width: 501px) {
+  .header-section h2 {
+    font-size: 3em;
+  }
+  .intro-sec {
+    flex-direction: column;
+  }
+  .intro-image {
+    width: 100%;
+    height: 50%;
+  }
+  .intro-image img {
+    width: 33.33%;
+    height: 100%;
+  }
+  .intro-text {
+    width: 100%;
+    height: 50%;
+  }
+  .intro-text h1 {
+    width: 100%;
+    height: 100%;
+    font-size: 3.5em;
+  }
+  .intro-second-sec p {
+    font-size: 1.8em;
+  }
+  .intro-second-sec .benefits ul {
+    font-size: 1.7em;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 681px) {
+  .intro-text h1 {
+    font-size: 5em;
+  }
+  .main-activity-sec .inner p {
+    font-size: 4em;
+  }
+  .main-activity-sec .inner .file {
+    width: 100%;
+    height: 50%;
+  }
+  .inner .file a {
+    font-size: 2.5em;
+  }
+}
+@media screen and (max-width: 350px) and (min-width: 0px) {
+  .main-activity-sec .inner p {
+    font-size: 3em;
+  }
+  .inner .file a {
+    font-size: 2em;
+  }
+  .convert ol li {
+    text-transform: lowercase;
+  }
+}
+@media screen and (max-width: 680px) and (min-width: 510px) {
+  .main-activity-sec .inner p {
+    font-size: 3.5em;
+  }
+  .main-activity-sec .inner .file {
+    width: 100%;
+    height: 50%;
+  }
+  .inner .file a {
+    font-size: 2em;
+  }
+  .convert ol li {
+    font-size: 2.5em;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 770px) {
+  .intro-text h1 {
+    font-size: 5em;
+  }
+  .main-activity-sec .inner p {
+    font-size: 5em;
+  }
+  .main-activity-sec .inner .file {
+    width: 75%;
+    height: 50%;
+  }
+  .inner .file a {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 901px) {
+  .intro-text h1 {
+    font-size: 6em;
+  }
+  .main-activity-sec .inner p {
+    font-size: 5em;
+  }
+  .main-activity-sec .inner .file {
+    width: 75%;
+    height: 50%;
+  }
+  .inner .file a {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 1001px) {
+  .intro-text h1 {
+    font-size: 7em;
+  }
+  .main-activity-sec .inner p {
+    font-size: 5em;
+  }
+  .main-activity-sec .inner .file {
+    width: 75%;
+    height: 50%;
+  }
+  .inner .file a {
+    font-size: 3em;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .intro-text h1 {
+    font-size: 6rem;
+  }
+  .main-activity-sec .inner p {
+    font-size: 6em;
+  }
+  .main-activity-sec .inner .file {
+    width: 75%;
+    height: 50%;
+  }
+  .inner .file a {
+    font-size: 3rem;
+  }
+}
+/* responsive code ends */
