@@ -64,9 +64,9 @@ body.addPicture-body {
   position: sticky;
   top: 0px;
   right: 0px;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: blue;
+  border-color: blue; */
 }
 .header-section h2 {
   font-size: 4em;
@@ -78,9 +78,9 @@ body.addPicture-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: brown;
+  border-color: brown; */
 }
 /* header section ends */
 /* ######################################################################### */
@@ -88,16 +88,16 @@ body.addPicture-body {
 #intro-screen {
   width: 100%;
   height: 90vh;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: brown;
+  border-color: brown; */
 }
 .intro-screen-sec {
   width: 100%;
   height: 100%;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: black; */
 }
 .intro {
   width: 100%;
@@ -107,17 +107,17 @@ body.addPicture-body {
     rgba(0, 235, 102, 0.85) 0%,
     rgba(30, 143, 170, 0.78) 100%
   );
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: crimson;
+  border-color: crimson; */
 }
 .intro-sec {
   width: 100%;
   height: 100%;
   display: flex;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: black; */
 }
 .intro-image {
   width: 50%;
@@ -125,15 +125,15 @@ body.addPicture-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: peru;
+  border-color: peru; */
 }
 .intro-image img {
   width: 33.33%;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: blue;
+  border-color: blue; */
 }
 .intro-text {
   width: 50%;
@@ -141,9 +141,9 @@ body.addPicture-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: blueviolet;
+  border-color: blueviolet; */
 }
 .intro-text h1 {
   width: 100%;
@@ -157,23 +157,23 @@ body.addPicture-body {
   font-style: italic;
   text-transform: capitalize;
   text-align: center;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: red;
+  border-color: red; */
 }
 .intro-second {
   width: 100%;
   height: 50%;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: blue;
+  border-color: blue; */
 }
 .intro-second-sec {
   width: 100%;
   height: 100%;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: black; */
 }
 .intro-second-sec p {
   width: 100%;
@@ -184,25 +184,25 @@ body.addPicture-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: coral;
+  border-color: coral; */
 }
 .intro-second-sec p i {
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 700;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: coral;
+  border-color: coral; */
 }
 .intro-second-sec .benefits {
   width: 100%;
   height: 50%;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: red;
+  border-color: red; */
 }
 .intro-second-sec .benefits ul {
   width: 100%;
@@ -212,9 +212,9 @@ body.addPicture-body {
   align-items: center;
   font-size: 3em;
   list-style-type: none;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: green;
+  border-color: green; */
 }
 .intro-second-sec .benefits ul li {
   width: 100%;
@@ -225,9 +225,9 @@ body.addPicture-body {
   justify-content: center;
   align-items: center;
   font-weight: 700;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: black; */
 }
 .intro-second-sec .benefits ul li i {
   color: green;
@@ -236,9 +236,9 @@ body.addPicture-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: black; */
 }
 /* intro section ends */
 /* ######################################################################### */
@@ -250,17 +250,17 @@ body.addPicture-body {
   justify-content: baseline;
   flex-wrap: wrap;
   gap: 1rem;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: brown;
+  border-color: brown; */
 }
 .image-file {
   width: 200px;
   height: 200px;
   margin: 2rem 0rem 0rem 2rem;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: red;
+  border-color: red; */
 }
 .image-file form,
 .done .inner-style {
@@ -270,9 +270,9 @@ body.addPicture-body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: lightgreen;
+  border-color: lightgreen; */
 }
 .image-file form label,
 .done p,
@@ -327,9 +327,9 @@ body.addPicture-body {
   padding: 1rem;
   word-wrap: break-word;
   background-color: lightsalmon;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: lightsalmon;
+  border-color: lightsalmon; */
 }
 .convert-PDF p i {
   font-size: 2.5em;
@@ -347,9 +347,9 @@ body.addPicture-body {
   margin: 2rem 0rem 0rem 2rem;
   background-color: white;
   box-shadow: 0px 0px 8px 0px black;
-  border-style: solid;
+  /* border-style: solid;
   border-color: black;
-  border-width: 2px;
+  border-width: 2px; */
 }
 .pdf-file .pdf-file-data {
   width: 100%;
@@ -358,9 +358,9 @@ body.addPicture-body {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  border-style: solid;
+  /* border-style: solid;
   border-color: blue;
-  border-width: 2px;
+  border-width: 2px; */
 }
 .pdf-file-data .trash-button {
   width: 100%;
@@ -370,9 +370,9 @@ body.addPicture-body {
   transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
   background-color: rgb(240, 128, 128, 0.2);
   display: none;
-  border-style: solid;
+  /* border-style: solid;
   border-color: red;
-  border-width: 2px;
+  border-width: 2px; */
 }
 .trash-button i {
   font-size: 2.5em;
@@ -388,9 +388,9 @@ body.addPicture-body {
 .pdf-file-data .image-section {
   width: 100%;
   height: 85%;
-  border-style: solid;
+  /* border-style: solid;
   border-color: brown;
-  border-width: 2px;
+  border-width: 2px; */
 }
 .pdf-file-data:hover .image-section {
   width: 100%;
@@ -399,9 +399,9 @@ body.addPicture-body {
 .pdf-file-data .image-section img {
   width: 100%;
   height: 100%;
-  border-style: solid;
+  /* border-style: solid;
   border-color: darkblue;
-  border-width: 2px;
+  border-width: 2px; */
 }
 .pdf-file-data .image-name {
   width: 100%;
@@ -416,9 +416,9 @@ body.addPicture-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-style: solid;
+  /* border-style: solid;
   border-color: blueviolet;
-  border-width: 2px;
+  border-width: 2px; */
 }
 /* pdf file section ends */
 /* ######################################################################### */
@@ -431,9 +431,9 @@ body.addPicture-body {
     rgba(0, 235, 102, 0.85) 0%,
     rgba(30, 143, 170, 0.78) 100%
   );
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: brown;
+  border-color: brown; */
 }
 .main-activity-sec {
   width: 100%;
@@ -441,9 +441,9 @@ body.addPicture-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: black; */
 }
 .main-activity-sec .inner {
   width: 94%;
@@ -472,9 +472,9 @@ body.addPicture-body {
   text-shadow: 0px 0px 3px black;
   padding: 1rem;
   margin-bottom: 3rem;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: black; */
 }
 .main-activity-sec .inner .file {
   width: 40%;
@@ -482,9 +482,9 @@ body.addPicture-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: black; */
 }
 .inner .file a {
   color: white;
@@ -509,16 +509,16 @@ body.addPicture-body {
 #convert-details {
   width: 100%;
   height: 70vh;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: brown;
+  border-color: brown; */
 }
 #convert-details .convert-inner {
   width: 100%;
   height: 100%;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: black; */
 }
 .convert-inner h2 {
   width: 100%;
@@ -529,9 +529,9 @@ body.addPicture-body {
   padding: 1rem;
   text-align: center;
   text-transform: capitalize;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: blue;
+  border-color: blue; */
 }
 .convert-inner h2 i {
   color: navy;
@@ -540,15 +540,15 @@ body.addPicture-body {
   width: 100%;
   height: 85%;
   display: flex;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: blue;
+  border-color: blue; */
 }
 .convert img {
   width: 50%;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: blueviolet;
+  border-color: blueviolet; */
 }
 .convert ol {
   width: 50%;
@@ -557,9 +557,9 @@ body.addPicture-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: blueviolet;
+  border-color: blueviolet; */
 }
 .convert ol li {
   width: 100%;
@@ -567,9 +567,9 @@ body.addPicture-body {
   font-size: 3em;
   text-transform: capitalize;
   padding: 1rem;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: black; */
 }
 .convert ol li i {
   color: green;
@@ -585,16 +585,16 @@ body.addPicture-body {
     rgba(0, 235, 102, 0.85) 0%,
     rgba(30, 143, 170, 0.78) 100%
   );
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: brown;
+  border-color: brown; */
 }
 #footer-section .footer-details {
   width: 100%;
   height: 100%;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: blue;
+  border-color: blue; */
 }
 .footer-details .links {
   width: 100%;
@@ -603,15 +603,15 @@ body.addPicture-body {
   justify-content: space-evenly;
   align-items: center;
   list-style-type: none;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: blueviolet;
+  border-color: blueviolet; */
 }
 .links li {
   font-size: 3em;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: black; */
 }
 .links li a {
   color: black;
@@ -623,9 +623,9 @@ body.addPicture-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color: blueviolet;
+  border-color: blueviolet; */
 }
 .footer-details p i {
   color: crimson;
@@ -859,5 +859,3 @@ body.addPicture-body {
   }
 }
 /* responsive code ends */
-/* updated responsive code starts */
-/* updated responsive code ends */
