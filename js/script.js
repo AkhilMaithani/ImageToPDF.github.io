@@ -106,7 +106,7 @@ let deleteElement = (e) => {
 // #######################################################
 // download pdf file
 let downloadPDF = () => {
-  let width, height;
+  let width = 200, height = 200;
   width = Number(prompt("Enter Width for Images:"));
   height = Number(prompt("Enter Height for Images:"));
 
