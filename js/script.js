@@ -86,7 +86,6 @@ function displayImages(element, index) {
   imageName.innerHTML = element.files[index].name;
 
   images.unshift(`${element.files[index].name}`);
-  console.log(images);
   uniElement = element;
 }
 // #######################################################
@@ -106,9 +105,17 @@ let deleteElement = (e) => {
 // #######################################################
 // download pdf file
 let downloadPDF = () => {
-  let width = 200, height = 200;
+  let width;
+  let height;
+
   width = Number(prompt("Enter Width for Images:"));
   height = Number(prompt("Enter Height for Images:"));
+  if (width === 0) {
+    width = 200;
+  }
+  if (height === 0) {
+    height = 200;
+  }
 
   const doc = new jsPDF();
   let imageAdd = document.getElementsByTagName("img");
