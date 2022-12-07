@@ -22,7 +22,7 @@
 
 ## File Links
 
-1. [index.html file](.\index.html)
+1. [index.html file](./index.html)
 2. [addPicture.html file](./addPicture.html)
 3. [style.css file](./css/style.css)
 4. [script.js file](./js/script.js)
