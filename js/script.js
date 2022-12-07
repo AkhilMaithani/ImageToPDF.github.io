@@ -106,13 +106,17 @@ let deleteElement = (e) => {
 // #######################################################
 // download pdf file
 let downloadPDF = () => {
+  let width, height;
+  width = Number(prompt("Enter Width for Images:"));
+  height = Number(prompt("Enter Height for Images:"));
+
   const doc = new jsPDF();
   let imageAdd = document.getElementsByTagName("img");
   let length = imageAdd.length;
 
   for (let i = 0; i < length; i++) {
     let imagePath = imageAdd[i];
-    doc.addImage(imagePath, 5, 5, 200, 200);
+    doc.addImage(imagePath, 5, 5, width, height);
     doc.addPage();
   }
   doc.save("imageToPDF.pdf");
