@@ -108,8 +108,9 @@ let downloadPDF = () => {
   let width;
   let height;
 
-  width = Number(prompt("Enter Width for Images:"));
-  height = Number(prompt("Enter Height for Images:"));
+  width = Number(document.getElementById("image-width").value);
+  height = Number(document.getElementById("image-height").value);
+
   if (width === 0) {
     width = 200;
   }
@@ -126,5 +127,8 @@ let downloadPDF = () => {
     doc.addImage(imagePath, 5, 5, width, height);
     doc.addPage();
   }
+
+  let numberOfPages = doc.internal.getNumberOfPages();
+  doc.deletePage(numberOfPages);
   doc.save("imageToPDF.pdf");
 };
