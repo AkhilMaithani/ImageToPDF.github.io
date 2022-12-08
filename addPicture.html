@@ -79,10 +79,18 @@
       </div>
 
       <!-- convert button -->
-      <div class="convert-PDF image-file">
-        <p class="inner-style" onclick="downloadPDF()">
-          Convert & Download&nbsp;<i class="fa-solid fa-download"></i>
-        </p>
+      <div class="convert-PDF">
+        <form class="image-size">
+          <label for="image-width">Image Width (optional)</label>
+          <input type="text" id="image-width" placeholder="max value:200px" />
+          <label for="image-height">Image Height (optional)</label>
+          <input type="text" id="image-height" placeholder="max value:287px" />
+          <input
+            type="submit"
+            value="Convert & Download"
+            onclick="downloadPDF()"
+          />
+        </form>
       </div>
     </section>
     <!-- add images section ends -->
