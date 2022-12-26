@@ -34,4 +34,4 @@
 ---
 
 - Note: The Project is live, click down to view!<br><br>
-<a href="https://akhilmaithani.github.io/ImageToPDF.github.io/" target="_blank"><img src="https://img.shields.io/badge/open%20now-Project%20Live%20Link-blue"></a>
+  <a href="https://akhilmaithani.github.io/ImageToPDF.github.io/" target="_blank"><img src="https://img.shields.io/badge/open%20now-Project%20Live%20Link-blue"></a>
